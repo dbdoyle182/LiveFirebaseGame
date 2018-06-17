@@ -13,3 +13,8 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
+
+var submitButton = document.querySelector('input.submitBtn')
+
+// console.log(submitButton)
+
