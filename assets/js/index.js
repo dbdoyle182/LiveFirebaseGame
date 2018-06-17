@@ -13,22 +13,22 @@ firebase.initializeApp(config);
 
 const database = firebase.database();
 
+// Test added to make sure firebase was working
+// const submitButton = document.querySelector('input.submitBtn');
+// submitButton.addEventListener('click', testFirebaseConnection);
 
-const submitButton = document.querySelector('input.submitBtn');
-submitButton.addEventListener('click', testFirebaseConnection);
+// // console.log(submitButton)
 
-// console.log(submitButton)
-
-function testFirebaseConnection() {
-    const name = document.getElementById("nameInput").value; 
-    console.log(name)
-    document.getElementById('nameOutput').innerHTML = name;
+// function testFirebaseConnection() {
+//     const name = document.getElementById("nameInput").value; 
+//     console.log(name)
+//     document.getElementById('nameOutput').innerHTML = name;
 
 
-    // Add firebase connection once click function is working
+//     // Add firebase connection once click function is working
 
-    database.ref().set({
-        name: name
-    })
-}
+//     database.ref().set({
+//         name: name
+//     })
+// }
 
