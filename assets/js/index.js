@@ -7,4 +7,9 @@ var config = {
     storageBucket: "onlinerps-d8af0.appspot.com",
     messagingSenderId: "98602852390"
   };
-  firebase.initializeApp(config);
+
+
+firebase.initializeApp(config);
+
+var database = firebase.database();
+
