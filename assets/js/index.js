@@ -26,5 +26,9 @@ function testFirebaseConnection() {
 
 
     // Add firebase connection once click function is working
+
+    database.ref().set({
+        name: name
+    })
 }
 
