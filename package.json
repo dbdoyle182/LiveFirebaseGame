@@ -1,0 +1,23 @@
+{
+  "name": "livefirebasegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbdoyle182/LiveFirebaseGame.git"
+  },
+  "author": "Daniel Doyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbdoyle182/LiveFirebaseGame/issues"
+  },
+  "homepage": "https://github.com/dbdoyle182/LiveFirebaseGame#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-start": "0.0.2"
+  }
+}
