@@ -1,13 +1,11 @@
-require("dotenv").config();
-
 // Initialize Firebase
 const config = {
-    apiKey: process.env.apiKey,
-    authDomain: process.env.authDomain,
-    databaseURL: process.env.databaseURL,
-    projectId: process.env.projectId,
-    storageBucket: process.env.storageBucket,
-    messagingSenderId: process.env.messagingSenderId
+    apiKey: "AIzaSyBrCWkH7ccwpAIA7Ox8zAzW2q6Xc55PgQk",
+    authDomain: "onlinerps-d8af0.firebaseapp.com",
+    databaseURL: "https://onlinerps-d8af0.firebaseio.com",
+    projectId: "onlinerps-d8af0",
+    storageBucket: "onlinerps-d8af0.appspot.com",
+    messagingSenderId: "98602852390"
   };
 
 
