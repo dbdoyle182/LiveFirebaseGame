@@ -1,5 +1,5 @@
 // Initialize Firebase
-var config = {
+const config = {
     apiKey: "AIzaSyBrCWkH7ccwpAIA7Ox8zAzW2q6Xc55PgQk",
     authDomain: "onlinerps-d8af0.firebaseapp.com",
     databaseURL: "https://onlinerps-d8af0.firebaseio.com",
@@ -11,10 +11,20 @@ var config = {
 
 firebase.initializeApp(config);
 
-var database = firebase.database();
+const database = firebase.database();
 
 
-var submitButton = document.querySelector('input.submitBtn')
+const submitButton = document.querySelector('input.submitBtn');
+submitButton.addEventListener('click', testFirebaseConnection);
 
 // console.log(submitButton)
+
+function testFirebaseConnection() {
+    const name = document.getElementById("nameInput").value; 
+    console.log(name)
+    document.getElementById('nameOutput').innerHTML = name;
+
+
+    // Add firebase connection once click function is working
+}
 
