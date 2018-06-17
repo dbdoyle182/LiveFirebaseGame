@@ -11,7 +11,23 @@ const config = {
 
 firebase.initializeApp(config);
 
+// Database reference variables
 const database = firebase.database();
+const chatData = database.ref('/chat');
+const playersRef = database.ref('players');
+const currentTurn = database.ref('turn');
+
+// Global game variables
+
+let currentPlayers = null;
+let currentTurn = null;
+let playerNum = false;
+let playerOneExists = false;
+let playerTwoExists = false;
+let playerOneData = null;
+let playerTwoData = null;
+
+
 
 // Test added to make sure firebase was working
 // const submitButton = document.querySelector('input.submitBtn');
@@ -31,4 +47,7 @@ const database = firebase.database();
 //         name: name
 //     })
 // }
+
+
+
 
