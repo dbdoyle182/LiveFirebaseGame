@@ -15,7 +15,7 @@ firebase.initializeApp(config);
 const database = firebase.database();
 const chatData = database.ref('/chat');
 const playersRef = database.ref('players');
-const currentTurn = database.ref('turn');
+const currentTurnRef = database.ref('turn');
 
 // Global game variables
 
